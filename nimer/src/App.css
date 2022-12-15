@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-
 .Nimer-Time{
   color: rgb(0, 0, 0);
   font-family: 'Caveat', cursive;
@@ -148,5 +147,5 @@ text-align: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: black;
   font-family: 'Caveat', cursive;
-  
+  text-decoration: none;
 }

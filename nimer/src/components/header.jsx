@@ -18,7 +18,7 @@ const PageHeader = () => {
             style={{
               "width":"100%",
               "max-width": "240px",
-              backgroundColor: "white",
+              "backgroundColor": "white",
             }}
             src={logo}
             alt=""

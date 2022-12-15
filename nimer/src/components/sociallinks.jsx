@@ -31,48 +31,38 @@ return(
   
 </div>
 </div>
- <div className='container-fluid mt-1 reviewstyle'>
-    <div className="row ">
-        <div className="col-9 col-lg-9">
-   <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
-  <div className="carousel-inner ">
-    <div className="carousel-item active    ">
-      <img src={require('../images/review1.jpg')} className="rounded  d-lg-inline-block d-sm-block"style={{
-          "width":"auto",
-          "height":"100px",
-            }} alt="..."></img>
-             <img src={require('../images/review2.jpg')} className="rounded  d-lg-inline-block d-sm-block "style={{
-           "width":"auto",
-           "height":"100px",
-            }} alt="..."></img>
+ <div className='container-fluid mt-1 reviewstyle '>
+  <div className="row review m-auto">
+    <div className="col-lg-6  col-sm-12 rounded p-1">
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100 review" src={require('../images/review4.jpg')} alt="First slide"></img>
     </div>
-    <div className="carousel-item active  ">
-      <img src={require('../images/review.5.jpg')} className="rounded d-lg-inline-block d-sm-block"style={{
-"width":"auto",
-            "height":"100px",
-              backgroundColor: "white",
-            }} alt="..."></img>
-            <img src={require('../images/review4.jpg')} className="rounded d-lg-inline-block "style={{
-            "width":"auto",
-            "height":"100px",
-              backgroundColor: "white",
-            }} alt="..."></img>
-          
+    <div class="carousel-item">
+    <img class="d-block w-100 review" src={require('../images/review2.jpg')} alt="First slide"></img>
     </div>
-
+    <div class="carousel-item">
+    <img class="d-block w-100 review" src={require('../images/review2.jpg')} alt="First slide"></img>
+    </div>
   </div>
-  <button className="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
 </div>
 </div>
-<div className="col-2   text-center m-auto fw-bold  reviewstyle p-2 ">הלקחות שלנו</div>
+<div className="col-lg-6 col-sm-12 rounded p-1 	">
+<section className='fw-bolder reviewstyle text-center text-dark mt-3'>
+  <p className='mb-1 fw-bolder reviewstyle text-center text-dark'>מעל 40 שנה בתחום האוכל </p>
+מסעדת ושווארמה נימר היא מסעדה מזרח תיכונית שמגישה מגוון רחב של אוכל מזרח תיכוני ומבחר סלטים של מעל 25 סוג סלט.
+כמו כן, המסעדה מתמחה בשווארמה איכותית.</section>
 </div>
-
- 
+</div>
  </div>
 </>
 )
