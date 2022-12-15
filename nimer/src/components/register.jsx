@@ -25,8 +25,8 @@ const Register =({redirect})=> {
         .email({ tlds: { allow: false } })
         .required(),
       password: Joi.string()
-        .min(6)
-        .required(),
+        .min(8)
+        .required().regex(/^.*(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])[a-zA-Z0-9@#$%^&+=]*$/),
       name: Joi.string()
         .min(2)
         .required(),
@@ -81,6 +81,7 @@ const Register =({redirect})=> {
             error={form.touched.phone && form.errors.phone}
           ></Input>
           <Input
+          placeholder="Minimum 8 digit,uppercase letter,number,special character"
             label={"סיסמה"}
             name={"password"}
             type="password"

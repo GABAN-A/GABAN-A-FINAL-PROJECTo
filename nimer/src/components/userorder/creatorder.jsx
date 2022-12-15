@@ -92,6 +92,8 @@ const CreatOrder=({redirect}) =>{
             </button>
           </div>
         </form>
+        <a href="https://wa.me/0548308253 " target="_blank"> <i className="bi bi-whatsapp h1 float-end"></i></a>    
+
         </div>
       </div>
     </>
