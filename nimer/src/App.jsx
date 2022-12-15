@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Footer from "./components/footer";
 import PageHeader from "./components/header";
@@ -28,9 +27,7 @@ function App() {
         <header>
         <PageHeader />
         </header>
-        
         <main className="flex-fill mt-2">
-         
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/about" element={<About />} />
@@ -45,9 +42,7 @@ function App() {
               <Route path="/my-orders/delete/:id"element={<ProtectedRoute onlyUsers>  <DeleteCard /> </ProtectedRoute>}/>
               <Route path="/admin/delete/:id"element={<ProtectedRoute ADMIN><DeleteUser/></ProtectedRoute>} />
               <Route path="*" element={<PageNotFound />} /> </Routes>
-          
         </main>
-        
         <footer>
           <Footer />
         </footer>

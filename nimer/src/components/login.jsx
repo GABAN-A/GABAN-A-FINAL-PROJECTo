@@ -73,20 +73,17 @@ const Login =({redirect})=> {
               </button>
             </div>
             <div className="text-center">
-          <p>Not a member? <a href="#!">Register</a></p>
+          <p>Not a member? <a href="/Register">Register</a></p>
           <p>or sign up with:</p>
           <button type="button" className="btn btn-link btn-floating mx-1">
             <i className="bi bi-facebook"></i>
           </button>
-
           <button type="button" className="btn btn-link btn-floating mx-1">
             <i className="bi bi-google"></i>
           </button>
-
           <button type="button" className="btn btn-link btn-floating mx-1">
             <i className="bi bi-twitter"></i>
           </button>
-
           <button type="button" className="btn btn-link btn-floating mx-1">
           <i className="bi bi-github"></i>
           </button>
