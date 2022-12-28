@@ -14,11 +14,11 @@ const PageHeader = () => {
       >
         <div className="container">
       <a  href="./" className="logo" style={{
-              width: "38%",}}><img
+              width: "34%",}}><img
             style={{
               "width":"100%",
               "max-width": "240px",
-              "backgroundColor": "white",
+              
             }}
             src={logo}
             alt=""

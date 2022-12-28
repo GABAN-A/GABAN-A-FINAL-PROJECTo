@@ -4,7 +4,7 @@ const Sociallinks=()=>{
 return(
     <>
 <div className="">
-<div className="no  justify-content-evenly p-4 d-lg-flex sm-flex-wrap lg-flex-nowrap mt-2">
+<div className="container no  justify-content-evenly p-2 d-lg-flex sm-flex-wrap lg-flex-nowrap ">
 	<li>
     <a href="tel:046412445">
       <i className="bi bi-telephone-forward-fill no mt-2"> <span type="phone">04-6412445</span> </i>
@@ -36,10 +36,10 @@ return(
   
   
 </div>
-</div>
- <div className='container-fluid mt-1 reviewstyle '>
+
+ <div className='container mt-1 reviewstyle p-4'>
   <div className="row review m-auto">
-    <div className="col-lg-6  col-sm-12 rounded p-1">
+    <div className="col-lg-6  col-sm-12 rounded p-1 d-flex align-items-center">
  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -62,13 +62,14 @@ return(
   </button>
 </div>
 </div>
-<div className="col-lg-6 col-sm-12 rounded p-1 	">
+<div className="col-lg-6 col-sm-12 rounded  	">
 <section className='fw-bolder reviewstyle text-center text-dark p-3'>
   <p className='mb-1 fw-bolder reviewstyle text-center text-dark p-2'>מעל 40 שנה בתחום האוכל </p>
 מסעדת ושווארמה נימר היא מסעדה מזרח תיכונית שמגישה מגוון רחב של אוכל מזרח תיכוני ומבחר סלטים של מעל 25 סוג סלט.
 כמו כן, המסעדה מתמחה בשווארמה איכותית.</section>
 </div>
 </div>
+ </div>
  </div>
 </>
 )

@@ -5,10 +5,13 @@
   font-family: 'Caveat', cursive;
   
 }
-
+.bg-site{
+  font-family: 'Caveat', cursive;  background-color: initial;
+  background-image: linear-gradient(-180deg, #f8f4ec, #DDE2E6);
+}
 
 .navstyle{
-  background-color:#ffff ;
+  background-image: linear-gradient(-180deg, #f8f4ec, #DDE2E6);
 }
 
 .setcrausal{

@@ -19,10 +19,12 @@ import MENUSIDBAR from "./components/workers/menursidbar"
 import AdminPage from "./components/admin/adminpage";
 import DeleteUser from "./components/admin/deleteuser";
 import About from "./components/admin/about";
+import './components/MENU/menu1/index.css';
+import Menu1 from './components/MENU/menu1/App';
 function App() {
   return (
     <>
-      <div className="app d-flex  flex-column  min-vh-100">
+      <div className="app d-flex  flex-column  min-vh-100 bg-site">
       <ToastContainer />
         <header>
         <PageHeader />
@@ -31,6 +33,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Homepage />} />
               <Route path="/about" element={<About />} />
+              <Route path="/menu1" element={<Menu1 />} />
               <Route path="/all" element={<ProtectedRoute ADMIN><AdminPage/></ProtectedRoute>} />
               <Route path="register" element={<Register redirect={"/login"}/>} />
               <Route path="login" element={<AdminOrUser />} />

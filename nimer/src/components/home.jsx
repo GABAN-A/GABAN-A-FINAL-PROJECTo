@@ -5,7 +5,7 @@ const Homepage = () => {
 
   return (
     <>
-      <div className="container-fluid background-home">
+      <div className="container background-home">
         <div className="row   InnerContainer">
           <div
             id="carouselExampleCaptions"
@@ -100,7 +100,7 @@ const Homepage = () => {
       </div>
    
         </div>
-        <div>
+        <div className="">
         <Sociallinks/>
       </div>
 
