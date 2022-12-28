@@ -9,7 +9,7 @@ const PageHeader = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-sm navbar navbar-bg navstyle"
+        className="navbar navbar-expand-sm navbar navbar-bg navstyle "
         aria-label="Third navbar example"
       >
         <div className="container">

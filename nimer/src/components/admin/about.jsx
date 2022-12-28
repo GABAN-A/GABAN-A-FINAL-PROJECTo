@@ -25,7 +25,7 @@ function about() {
                <p className='fs-4'>
                     רק עובדים מסוג עובד יש להם את ההרשאה לכנס לדף ההזמנות של המסעדה
                 <br></br>
-               לקנס לדף ההזמנות של העובדים צריך לרשם משתמשם בשם
+              לכנס לדף ההזמנות של העובדים צריך להרשם משתמשים בשמות
                <br></br>
                <button className='btn btn-secondary mb-3 mt-3'>שם המשתמש: mltsar1 or mltsar2 or mltsar3</button>
                <br></br>
