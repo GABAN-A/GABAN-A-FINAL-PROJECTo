@@ -3,40 +3,40 @@
 const Sociallinks=()=>{
 return(
     <>
-<div className="">
-<div className="container no  justify-content-evenly p-2 d-lg-flex sm-flex-wrap lg-flex-nowrap ">
-	<li>
+    
+<div className="container no p-2 justify-content-around  d-lg-flex sm-flex-wrap lg-flex-nowrap ">
+  <div className="row ">
+	<li className='col-6 col-lg'>
     <a href="tel:046412445">
       <i className="bi bi-telephone-forward-fill no mt-2"> <span type="phone">04-6412445</span> </i>
 		</a>
-	</li>
-    <li>
+	</li  >
+    <li className='col-6 col-lg'>
 	  <a className="facebook " href="https://www.facebook.com/NIMR.RESTAURANT.AND.SHAWARMA/" target="_blank">
       <i className="no bi bi-facebook  mt-2"> <span> Facebook</span></i>
 			
 		</a>
 	</li>
-		<li>
+		<li className='col-6 col-lg'>
 		<a className="INSTA" href="https://www.instagram.com/shawarma_nimer/" target="_blank">
         <i className=" no bi bi-instagram  mt-2"> <span> Instagram</span>
 </i>
 		</a>
 		</li>
-        <li>
+        <li className='col-6 col-lg'>
 	  <a className="google" href="https://ul.waze.com/ul?preview_venue_id=23200072.231804109.342805&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">
       <i className="no bi bi-map mt-2"> <span > Waze</span>
 </i>
 		</a>
 	</li>	
-  <li>
+  <li className=' col-lg'>
 	  <a className="google" href="https://wa.me/0548308253 " target="_blank">
     <i className="no bi bi-whatsapp mt-2"><span >whatsapp</span></i> 
 		</a>
 	</li>	
   
   
-</div>
-
+</div></div>
  <div className='container mt-1 reviewstyle p-4'>
   <div className="row review m-auto">
     <div className="col-lg-6  col-sm-12 rounded p-1 d-flex align-items-center">
@@ -70,7 +70,7 @@ return(
 </div>
 </div>
  </div>
- </div>
+
 </>
 )
 }

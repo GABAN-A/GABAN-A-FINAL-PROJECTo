@@ -6,10 +6,10 @@ const Homepage = () => {
   return (
     <>
       <div className="container background-home">
-        <div className="row   InnerContainer">
+        <div className="row  InnerContainer">
           <div
             id="carouselExampleCaptions"
-            className="carousel p-0 m-0 slide col-lg-10 col-sm-12 col-md-11  "
+            className="carousel p-0 m-0 slide col-lg-10 col-sm-12 col-md-11  "  
             data-bs-ride="carousel"
           >
             <div className="carousel-indicators">
@@ -42,27 +42,27 @@ const Homepage = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active ">
-              <img className="w-100" src={require('../images/3.jpg')}></img>
+              <img className="w-100 style" src={require('../images/3.jpg')}></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>טעים טרי איכותי </h5>
   
                 </div>
               </div>
               <div className="carousel-item">
-              <img className="w-100" src={require('../images/steak.jpg')}></img>
+              <img className="w-100 style" src={require('../images/steak.jpg')}></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>מפנקים מכול הלב</h5>
                 </div>
               </div>
               <div className="carousel-item">
-              <img className="w-100" src={require('../images/4.jpg')}></img>
+              <img className="w-100 style" src={require('../images/4.jpg')}></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>אוכל זה אומנות</h5>
                
                 </div>
               </div>
               <div className="carousel-item">
-              <img className="w-100" src={require('../images/12.jpg')}></img>
+              <img className="w-100 style" src={require('../images/12.jpg')}></img>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>אוכל זה אומנות</h5>
                 </div>
@@ -100,7 +100,7 @@ const Homepage = () => {
       </div>
    
         </div>
-        <div className="">
+        <div className="mt-2">
         <Sociallinks/>
       </div>
 

@@ -9,7 +9,7 @@ const PageHeader = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-sm navbar navbar-bg navstyle "
+        className="navbar navbar-expand-sm  p-1 navbar navbar-bg navstyle "
         aria-label="Third navbar example"
       >
         <div className="container">
@@ -25,7 +25,7 @@ const PageHeader = () => {
           > 
 </img></a>
           <h1
-            className="text-center  Nimer-Time mt-3 fw-bold"
+            className="text-center m-auto   fw-bold"
             style={{ width: "40%" }}
           >
             It's Nimr Time
