@@ -44,7 +44,7 @@ const Login =({redirect})=> {
 
     return (
       <> 
-        <div className="container Register-bcg rounded border border-5 min-vh-75"> 
+        <div className="container Register-bcg rounded  min-vh-75"> 
         <div className="row p-5">
         
           <form noValidate autoComplete="off" onSubmit={form.handleSubmit} className="text-end shadow col-12 p-2 rounded  mx-auto">

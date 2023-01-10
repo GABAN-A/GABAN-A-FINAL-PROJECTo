@@ -3,7 +3,7 @@ const menu = [
   {
     id: 1,
     title: 'akara and akamu',
-    category: 'breakfast',
+    category: 'שווארמה',
     price: 1500,
     img:
       'https://ocdn.eu/pulscms-transforms/1/N2Ek9kpTURBXy82ZjFhYTI3NzBjNDhkNDczYTRiMTg2NWE0ZDNmNmFlNy5qcGeSlQLNAxQAwsOVAgDNAvjCw4GhMAU',
@@ -12,7 +12,7 @@ const menu = [
   {
     id: 2,
     title: 'Yam and Egg sauce',
-    category: 'lunch',
+    category: 'על האש',
     price: 1700,
     img:
       'https://ocdn.eu/pulscms-transforms/1/zI6k9kpTURBXy8yMzRlMTBmNDBmMzg0YTFjZDZiYjczZDIxZTc2YzE3MC5qcGeSlQLNAxQAwsOVAgDNAvjCw4GhMAU',
@@ -21,7 +21,7 @@ const menu = [
   {
     id: 3,
     title: 'suya',
-    category: 'dinner',
+    category: 'על האש',
     price: 1000,
     img: 'https://www.chefspencil.com/wp-content/uploads/Suya.jpg',
     desc: `This is simply nicely cut beef that is spiced and grilled over an open flame. It is served with fresh cabbage, tomatoes, and onions.`,
@@ -29,7 +29,7 @@ const menu = [
   {
     id: 4,
     title: 'Tea and bread',
-    category: 'breakfast',
+    category: 'שווארמה',
     price: 1200,
     img:
       'https://ocdn.eu/pulscms-transforms/1/r3Rk9kpTURBXy9hOWMwMmU0MWFmOTBkMTM0ZjEyOTAzM2NmZTM2OWE0NS5qcGeSlQLNAxQAwsOVAgDNAvjCw4GhMAU',
@@ -38,7 +38,7 @@ const menu = [
   {
     id: 5,
     title: 'jollof rice',
-    category: 'lunch',
+    category: 'סלטים',
     price: 2500,
     img:
       'https://img.buzzfeed.com/buzzfeed-static/static/2019-01/14/17/asset/buzzfeed-prod-web-06/sub-buzz-25688-1547505890-13.jpg?output-quality=auto&output-format=auto',
@@ -47,7 +47,7 @@ const menu = [
   {
     id: 6,
     title: 'ofada rice',
-    category: 'dinner',
+    category: 'על האש',
     price: 2200,
     img:
       'https://shop4younow.com.ng/317-large_default/ofada-rice-sauce-per-portion.jpg',
@@ -56,7 +56,7 @@ const menu = [
   {
     id: 7,
     title: 'Indomie and egg',
-    category: 'breakfast',
+    category: 'שווארמה',
     price: 2200,
     img:
       'https://ocdn.eu/pulscms-transforms/1/Mg3k9kpTURBXy81Mjc2OWJjZGI3ZTE0NDljMTRhZmYyYWI1MzhmNmRlMC5qcGeSlQLNAxQAwsOVAgDNAvjCw4GhMAU',
@@ -65,7 +65,7 @@ const menu = [
   {
     id: 8,
     title: 'Bread and Beans',
-    category: 'lunch',
+    category: 'סלטים',
     price: 2500,
     img:
       'https://ocdn.eu/pulscms-transforms/1/U_fk9kpTURBXy81NGM2MzIxNGE2NTVmYmI2YmU4Njg0MTJkM2QyODQzNy5qcGeSlQLNAxQAwsOVAgDNAvjCw4GhMAU',
@@ -74,18 +74,12 @@ const menu = [
   {
     id: 9,
     title: 'eba and efo riro',
-    category: 'dinner',
+    category: 'על האש',
     price: 1150,
     img:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Eba_and_Efo_riro_%28Vegetable_Soup%29_with_Fish.jpg/220px-Eba_and_Efo_riro_%28Vegetable_Soup%29_with_Fish.jpg',
     desc: `Ẹ̀bà is a staple food mainly eaten in the West African subregion, particularly in Nigeria and some parts of Ghana. It came from Nigeria originally`,
   },
-  {
-    id: 10,
-    title: 'eba and efo riro',
-    category: 'שווארמט',
-    price: 1150,
-    img: '../menu1/33.jpg'
-  },
+
 ]
 export default menu

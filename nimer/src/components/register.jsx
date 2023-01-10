@@ -54,7 +54,7 @@ const Register =({redirect})=> {
   return (
     <> 
     <h2 className="mt-4 text-dark p-3 mb-4  rounded text-center shadow">הרשמה לקוח חדש</h2>
-      <div className="container Register-bcg rounded border border-5 min-vh-75"> 
+      <div className="container Register-bcg rounded  min-vh-75"> 
       <div className="row p-5">
       
         <form noValidate autoComplete="off" onSubmit={form.handleSubmit} className="text-end m-auto shadow col-lg-9 col-sm-12 col-md-9 p-2 rounded">
