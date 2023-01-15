@@ -153,3 +153,9 @@ text-align: center;
   font-family: 'Caveat', cursive;
   text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+.style{
+  object-fit: cover;
+height: 35vh;
+}
+}

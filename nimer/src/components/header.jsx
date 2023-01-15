@@ -69,7 +69,7 @@ const PageHeader = () => {
                 <>
                   <li className="nav-item nav-hover">
                     <NavLink to="myorders" className="nav-link">
-                      הזמנות לשי
+                      הזמנות שלי
                     </NavLink>
                   </li>
                   <li className="nav-item nav-hover">

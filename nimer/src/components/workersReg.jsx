@@ -25,8 +25,8 @@ const WorkerRegister =({redirect})=> {
         .email({ tlds: { allow: false } })
         .required(),
       password: Joi.string()
-        .min(6)
-        .required(),
+      .min(8)
+      .required().regex(/^.*(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!*()_])[a-zA-Z0-9@#$%^&+=!]*$/),
       name: Joi.string()
         .min(2)
         .required(),
